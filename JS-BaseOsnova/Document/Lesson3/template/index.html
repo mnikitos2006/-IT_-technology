@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="sytyles.css">
+</head>
+<body>
+<div id="enter">
+    <input type="text" placeholder="Введите Имя">
+    <input type="password" placeholder="Введите пароль">
+    <input type="email" placeholder="Введите почту">
+    <input type="button" value="вход" onclick="getData()">
+</div>
+
+<script>
+    function getData() {
+        const div = document.getElementById("enter")
+        const name = div.querySelector('input[type="text"]').value
+        const password = div.querySelector('input[type="password"]').value
+        const email = div.querySelector('input[type="email"]').value
+        console.log({name, password, email})
+    }
+</script>
+</body>
+</html>

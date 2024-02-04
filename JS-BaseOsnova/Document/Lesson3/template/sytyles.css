@@ -1,0 +1,15 @@
+body{
+    background-color: #b3e0ce;
+}
+
+#enter{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border: 2px  solid #48936a;
+    border-radius: 10px;
+    padding: 5px;
+}
+#enter input{
+    margin: 3px;
+}

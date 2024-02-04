@@ -1,0 +1,30 @@
+body{
+    background-color: #b3e0ce;
+}
+
+#enter{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border: 2px  solid #48936a;
+    border-radius: 10px;
+    padding: 5px;
+}
+#enter input{
+    margin: 3px;
+}
+
+.div{
+    width: 150px;
+    background: red;
+}
+.div2{
+    width: 50px;
+    height: 50px;
+    background: #03409b;
+}
+.div3{
+    width: 50px;
+    height: 50px;
+    background: #51e017;
+}
