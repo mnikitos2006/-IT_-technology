@@ -136,22 +136,6 @@ purchases.forEach((purchase, index) => {
 console.log(`Total cost of purchases: $${totalCost}`);
 
 
-// Задача 10
 
-
-const uniqueElements = (arr) => {
-    return arr.filter((el, index) => arr.indexOf(el) === index);
-}
-
-// console.log(uniqueElements([1, 1, 1, 1, 1, 2, 2, 2, 3, 4, 4, "Hello", "Hello"]));
-
-
-// Задача 12
-
-const nikFunc = (mass1, mass2) => {
-    return mass1.filter(element => !mass2.includes(element))
-
-}
-// console.log(nikFunc([1, 2, 3], [1, 1, 5, 4]));
 
 module.exports = {getLengthArrayCustom, getLengthArrCustomV2}
