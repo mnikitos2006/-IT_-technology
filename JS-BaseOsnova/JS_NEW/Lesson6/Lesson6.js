@@ -85,3 +85,7 @@ for (const fruit of fruits) {
 }
 
 //всё чётко
+
+
+
+
