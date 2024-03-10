@@ -160,4 +160,50 @@ const isPasswordStrong = (password) => {
     return "Отличный пароль!";
 }
 
-console.log(isPasswordStrong("opkojhggd67"))
+// console.log(isPasswordStrong("opkojhggd67"))
+
+
+//1
+const createAndDisplayPerson = (name, age) => {
+    const person = {
+        name,
+        age
+    }
+    return person
+}
+//console.log(createAndDisplayPerson("Nik","17"));
+
+
+//2
+const createObj = (title, author, year) => {
+    const book = {
+        title,
+        author,
+        year
+    }
+    const nazvanie = "Название книги: " + book.title
+    const avtor = "Автор книги: " + book.author
+    const godIzdaniya = "Год издания книги: " + book.year
+    return nazvanie + `\n` + avtor + `\n` + godIzdaniya
+}
+
+// console.log(createObj("Тестируем", "Тест", "17"));
+
+
+//3
+
+
+let user = {
+    name: "Никита",
+    email: "mnikitos2006@gmail.com"
+}
+
+const updateEmail = (newUser, newEmail) => {
+    let copyObjUser = {...user}
+    if (copyObjUser.name === newUser) {
+        return copyObjUser.email = `Ты изменил свою почту с ${copyObjUser.email} на ` + `\n` + newEmail + `\n` + `\n` + "Вот твои данные: " + `\n` + "Имя: " + copyObjUser.name + `\n` + "Почта: " + newEmail
+    } else {
+        return "Ты не тот пользователь, ты не сможешь изменить свою почту"
+    }
+}
+// console.log(updateEmail("Никита", "westenterprise@yandex.ru"));
